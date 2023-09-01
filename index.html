@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bubble Game</title>
+		<style>
+			@font-face {
+				font-family: head;
+				src: url(./Gilroy-Light.otf);
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+				font-family: "head";
+			}
+
+			html,
+			body {
+				height: 100%;
+				width: 100%;
+			}
+			.frontmain {
+				height: 100vh;
+				width: 100%;
+				background-color: rgb(155, 184, 155);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+			}
+
+			.start {
+				width: 80%;
+				height: 80%;
+				background-color: #fff;
+				border-radius: 10px;
+				overflow: hidden;
+				box-shadow: 1px 1px 10px rgb(57, 77, 57);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+			}
+			.start h1 {
+				text-align: center;
+				font-size: 7vw;
+                font-weight: bolder;
+				color: rgb(72, 104, 72);
+                padding-bottom: 10px;
+			}
+
+            .start a {
+                margin-top: 20px;
+                text-decoration: none;
+                color: rgb(72, 104, 72);
+                font-size: 3vw;
+                font-weight: bolder;
+                border: 2px solid rgb(72, 104, 72);
+                padding: 10px 20px;
+                border-radius: 10px;
+            }
+
+            a:hover {
+                background-color: rgb(72, 104, 72);
+                color: #fff;
+                transition: all 0.3s ease-in-out;
+            }
+            
+		</style>
+	</head>
+
+	<body>
+		<div class="frontmain">
+			<div class="start">
+				<h1>Bubble Game</h1>
+                <a href="./game-page.html">Start</a>
+			</div>
+		</div>
+	</body>
+</html>
